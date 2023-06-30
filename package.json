@@ -11,6 +11,7 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "@sentry/browser": "^7.40.0",
         "autoprefixer": "^10.4.14",
         "postcss": "^8.4.24",
         "sass": "^1.63.6",
