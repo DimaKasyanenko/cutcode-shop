@@ -8,7 +8,7 @@ use Monolog\Level;
 use Monolog\Logger;
 use Monolog\LogRecord;
 
-class TelegramLoggerHendler extends AbstractProcessingHandler
+class TelegramLoggerHandler extends AbstractProcessingHandler
 {
     protected int $chatId;
     protected string $token;
