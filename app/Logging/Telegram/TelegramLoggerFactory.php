@@ -9,7 +9,7 @@ class TelegramLoggerFactory
     public function __invoke(array $config): Logger
     {
         $logger = new Logger('telegram');
-        $logger->pushHandler(new TelegramLoggerHandler($config));
+        $logger->pushHandler(new TelegramLoggerHendler($config));
 
         return $logger;
     }
